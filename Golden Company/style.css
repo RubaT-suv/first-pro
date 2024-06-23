@@ -1,0 +1,182 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    direction: rtl;
+}
+
+header {
+    background-image: url(1111.jpg);
+    color: #030101;
+    padding: 80px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header h1 {
+    color:#030101;
+   font-size:500%; 
+   text-align:top;
+}
+
+#showForm {
+    background-color:#a9a9f4;
+    border: none;
+    color: #030101;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.5; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  #showForm:hover {
+    opacity: 1; 
+  }
+  
+  #showForm:disabled {
+    cursor: not-allowed;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #030101;
+    text-decoration: none;
+    hover {
+      color: red; 
+      font-size: 25; 
+      text-decoration: underline; 
+    }
+}
+
+table {
+    width: 50%;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #490d49;
+    color: #fff;
+}
+
+.button1 {
+    background-color:#490d49 78ac;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button1:hover {
+  background-color: #490d49;
+}
+
+h1 {
+    color:#490d49;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color:#030101;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 2.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#myForm {
+    display: block; 
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+  }
+  
+  #myForm label {
+    display: block; 
+    margin-top: 20px; 
+    font-weight: bold; 
+  }
+  
+  #myForm input[type="text"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+  
+  #myForm button[name="submit"] {
+    background-color: #874caf; 
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 20px; 
+  }
+  
+  #myForm button[name="submit"]:hover {
+    background-color:  #874caf; 
+  }
+  
+  #myForm input[type="button"] {
+    background-color:  #874caf; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 20px; 
+  }
+  
+  #myForm input[type="button"]:hover {
+    background-color: #874caf; 
+  }
+  
+  #myForm input[type="text"]:focus {
+    outline: none; 
+    box-shadow: 0 0 5px  #874caf; 
+  }
+  
+  #myForm input[type="button"]:focus {
+    outline: none; 
+    box-shadow: 0 0 5px  #874caf; 
+    
+  }
+  
+  #myForm button[name="submit"]:focus {
+    outline: none; 
+    box-shadow: 0 0 5px  #874caf; /
+  }
